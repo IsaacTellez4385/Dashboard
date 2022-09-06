@@ -1,0 +1,35 @@
+$navbar-width:10%;
+$navbar-height: 100%;
+.nav-left{
+    width: $navbar-width;
+    height: $navbar-height;
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    position: absolute;
+    border-radius:20px;
+}
+.nav-left nav {
+    position: sticky;
+    text-align: center;
+    margin: 50%;
+    justify-items: space-evenly;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: lightgrey;
+}
+span{
+    padding: 10px 10px;
+}
+span:hover{
+    background: black;
+    border-radius: 30px;
+}
+a:hover{
+    color:white;
+}

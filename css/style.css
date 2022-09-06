@@ -81,13 +81,9 @@ body {
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 20px;
-  display: flex;
 }
 
 .boxes {
-  width: 800px;
-  height: 150px;
-  margin-left: 200px;
   display: flex;
   justify-content: space-between;
 }

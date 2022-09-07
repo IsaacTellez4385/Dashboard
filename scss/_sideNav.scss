@@ -1,5 +1,7 @@
-$navbar-width: 130px;
-$navbar-height: 710px;
+//Cael's code
+
+$navbar-width: 150px;
+$navbar-height: 750px;
 $radius: 20px;
 $navtot-width:100%;
 .nav-left{
@@ -80,4 +82,27 @@ a:hover{
 .tot-nav{
     display: flex;
     width: $navtot-width;
+}
+
+.buttons img{
+    display: flex;
+    margin: 14px;
+    width: 15px;
+    height: 15px;
+    border-radius: none;
+}
+.buttons button{
+    background: white;
+    text-decoration: none;
+    border-radius: $radius;
+    margin-left: 10px;
+}
+
+.prof-email{
+    display: flex;
+    color: lightgray;
+    font-size: 11px;
+    padding-left: 25px;
+    padding-bottom: 75px;
+    width: 20%;
 }

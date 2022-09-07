@@ -1,35 +1,4 @@
 @use '_moneyComponent';
 @use '_sidenav';
 @use '_topBar';
-body {
-    margin:0;
-    background: rgb(254,255,209);
-    background: linear-gradient(90deg, rgba(254,255,209,1) 23%, rgba(164,255,224,1) 100%);
-    height:100%;
-}
-.Content {
-    width:80%;
-    height:710px;
-    background-color: white;
-    margin:0 auto;
-    margin-top:100px;
-    border-radius:20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.boxes {
-    display:flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    margin-left: 150px;
-}
-
-.greenBox {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 150px;
-}
-
-* {
-    scroll-behavior: auto;
-}
+@use '_main';

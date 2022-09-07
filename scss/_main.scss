@@ -1,3 +1,5 @@
+// Isaac's code
+
 body {
     margin:0;
     background: rgb(254,255,209);
@@ -17,7 +19,7 @@ body {
 }
 .boxes {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     margin-left: 150px;
 }

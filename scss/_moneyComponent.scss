@@ -1,0 +1,81 @@
+$border-radius: 10px;
+$box-width: 300px;
+$box-height: 200px;
+$primary-color: #B0DAF1;
+$secondary-color: #FCA1A1;
+$third-color: #BCFBC9;
+$box-margin: 10px;
+$text-height: 20px;
+$secondText-height: 10px;
+$text-color: #585858;
+$image-width: 275px;
+$image-height: 125px;
+
+@mixin backgroundStuff($back: $primary-color) {
+    background-color: $back;
+}
+
+.boxWidget {
+    border-radius: $border-radius;
+    width: $box-width;
+    height: $box-height;
+    margin: $box-margin;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.colorOne {
+    background-color: $primary-color;
+}
+
+.colorTwo {
+    background-color: $secondary-color;
+}
+
+.colorThree {
+    background-color: $third-color;
+}
+
+.invisible {
+    opacity: 100%;
+    
+}
+
+h4 {
+    font-size: $text-height;
+    margin: $box-margin;
+}
+
+h6 {
+    font-size: $secondText-height;
+    margin: $box-margin;
+    color: $text-color;
+}
+
+.propertyOverview {
+    width:1100px;
+    height: 150px;
+    background-color: #DADFEA;
+    border-radius:20px;
+    margin: $box-margin;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image {
+    height: $image-height;
+    width: $image-width;
+    background-size: cover;
+    margin: $box-margin;
+    border-radius: $border-radius;
+}
+
+.backImageOne {
+    background-image: url('../images/money.jpg');
+}
+
+.backImageTwo {
+    background-image: url('../images/graph.jpg');
+}
+
+.backImageThree {
+    background-image: url('../images/taxes.jpg');
+}

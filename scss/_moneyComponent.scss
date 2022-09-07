@@ -53,10 +53,11 @@ h6 {
 
 .propertyOverview {
     width:1100px;
-    height:200px;
-    background-color:green;
+    height: 150px;
+    background-color: #DADFEA;
     border-radius:20px;
     margin: $box-margin;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .image {
@@ -64,6 +65,7 @@ h6 {
     width: $image-width;
     background-size: cover;
     margin: $box-margin;
+    border-radius: $border-radius;
 }
 
 .backImageOne {

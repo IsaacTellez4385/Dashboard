@@ -7,7 +7,7 @@ $navtot-width:100%;
     height: $navbar-height;
     display: flex;
     flex-direction: column;
-    background: grey;
+    background: rgb(255, 255, 255);
     position: absolute;
     border-radius: $radius;
 }
@@ -28,6 +28,8 @@ a {
 }
 span{
     padding: 10px 10px;
+    transition: all .4s;
+    border-radius: $radius;
 }
 span:hover{
     background: black;

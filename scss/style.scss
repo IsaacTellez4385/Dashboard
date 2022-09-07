@@ -1,5 +1,6 @@
 @use '_moneyComponent';
 @use '_sidenav';
+@use '_topBar';
 body {
     margin:0;
     background: rgb(254,255,209);
@@ -17,13 +18,13 @@ body {
 .boxes {
     display:flex;
     justify-content:space-between;
+    flex-wrap: wrap;
+    margin-left: 150px;
 }
 
-.propertyOverview {
-    width:800px;
-    height:200px;
-    background-color:green;
-    margin-left:200px;
-    border-radius:20px;
-    margin-top:20px;
+.greenBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 150px;
 }
